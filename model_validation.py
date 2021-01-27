@@ -182,8 +182,8 @@ def cfm_plot(y_true, y_proba, **params):
     
     # Set labels for `Confusion Matrix`.
     labels = [['True Positive' , tp, (0,0)], 
-              ['False Positive', fp, (0,1)], 
-              ['False Negative', fn, (1,0)], 
+              ['False Positive', fp, (1,0)], 
+              ['False Negative', fn, (0,1)], 
               ['True Negative' , tn, (1,1)]]
     
     # Set keyword arguments, and string formats.
